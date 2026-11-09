@@ -24,11 +24,15 @@ def wrap(text,f,width):
         else: line=test
     if line: lines.append(line)
     return lines
-def textblock(text,size,width,color,bold=False,spacing=1.18):
+def textblock(text,size,width,color,bold=False,spacing=1.18,highlight=()):
     f=font(size,bold); lines=wrap(text,f,width)
     im=Image.new('RGBA',(width,int(size*spacing*len(lines)+size*.3)))
     d=ImageDraw.Draw(im)
-    for i,line in enumerate(lines): d.text((0,i*size*spacing),line,font=f,fill=color)
+    for i,line in enumerate(lines):
+        x=0
+        for word in line.split(' '):
+            d.text((x,i*size*spacing),word,font=f,fill=GOLD if word.lower().strip('.,!') in highlight else color)
+            x+=f.getlength(word+' ')
     return im
 def paste(im,layer,xy,alpha=1):
     if alpha<=0: return
@@ -43,7 +47,7 @@ def fitlogo(width):
 
 # All graphic elements remain inside Reels safe margins (78px lateral, 180px bottom).
 brand=textblock('BOA MESA  /  CESTA BÁSICA',27,900,PAPER,True)
-introtitle=textblock('1. Você solicita sua cotação e confirma o pedido conosco',64,900,PAPER,True)
+introtitle=textblock('1. Você solicita sua cotação e confirma o pedido conosco',64,900,PAPER,True,highlight=('cotação','pedido'))
 stages=[
     ('2. Nossa equipe inicia a preparação do seu pedido','Organização e cuidado em cada etapa','02  /  PREPARAÇÃO'),
     ('3. Tudo organizado para a próxima etapa','Seu pedido preparado com atenção','03  /  ORGANIZAÇÃO'),

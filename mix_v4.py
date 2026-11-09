@@ -31,11 +31,11 @@ def sounddesign():
     pcm=np.int16(np.clip(mix,-1,1)*32767)
     with wave.open(str(A/'sound_design_v4.wav'),'wb')as w:w.setnchannels(2);w.setsampwidth(2);w.setframerate(sr);w.writeframes(pcm.tobytes())
 
-def mix():
+def mix(picture_name='picture_v4.mp4',output_name='video_pronto_bm_v4.mp4'):
     sounddesign()
     f='[0:a]asplit=3[a][b][c];[a]atrim=0:21.4286,asetpts=PTS-STARTPTS[a1];[b]atrim=8.5714:22.7143,asetpts=PTS-STARTPTS[b1];[c]atrim=25.5:35,asetpts=PTS-STARTPTS[c1];[a1][b1]acrossfade=d=0.5357:c1=qsin:c2=qsin[ab];[ab][c1]acrossfade=d=0.5357:c1=qsin:c2=qsin[out]'
     subprocess.run(['ffmpeg','-y','-v','error','-i',str(A/'music.mp3'),'-filter_complex',f,'-map','[out]','-ac','2','-ar','48000',str(A/'score_v4.wav')],check=True)
-    ins=['ffmpeg','-y','-v','error','-i',str(O/'picture_v4.mp4')]
+    ins=['ffmpeg','-y','-v','error','-i',str(O/picture_name)]
     for n in ['narracao_v4.mp3','score_v4.wav','sound_design_v4.wav','whoosh.mp3','notification.mp3','producao.mp4','estoque.mp4','carregamento.mp4']:ins+=['-i',str(A/n)]
     f=f'[1:a]highpass=f=75,equalizer=f=2800:t=q:w=1.2:g=1.2,loudnorm=I=-15.5:TP=-1.5:LRA=8,adelay=250|250,apad,atrim=0:{D},aformat=channel_layouts=stereo,asplit=2[v][side];'
     f+=f'[2:a]atrim=0:{D},afade=t=in:d=0.18,afade=t=out:st=42.2:d=1.8,volume=0.35[m];[m][side]sidechaincompress=threshold=0.025:ratio=5:attack=6:release=220[duck];[3:a]volume=0.9[sfx];'
@@ -47,5 +47,5 @@ def mix():
         ms=round(st*1000);f+=f'[{idx}:a]atrim=start={trim}:duration={dur},asetpts=PTS-STARTPTS,highpass=f=150,lowpass=f=2600,afade=t=in:d=0.15,afade=t=out:st={dur-.25}:d=0.25,volume={gain},adelay={ms}|{ms}[amb{i}];'
     ts=['v','duck','sfx','notification']+[f'whoosh{i}'for i in range(3)]+[f'amb{i}'for i in range(3)]
     f+=''.join('['+x+']'for x in ts)+f'amix=inputs={len(ts)}:duration=first:normalize=0,alimiter=limit=0.89:level=0[a]'
-    subprocess.run(ins+['-filter_complex',f,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','320k','-ar','48000','-ac','2','-t',str(D),'-movflags','+faststart',str(O/'video_pronto_bm_v4.mp4')],check=True)
+    subprocess.run(ins+['-filter_complex',f,'-map','0:v','-map','[a]','-c:v','copy','-c:a','aac','-b:a','320k','-ar','48000','-ac','2','-t',str(D),'-movflags','+faststart',str(O/output_name)],check=True)
 if __name__=='__main__':mix()

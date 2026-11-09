@@ -1,0 +1,19 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration_seconds": 35,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "decode_errors": 0,
+  "black_segments": 0,
+  "sha256": {
+    "renders/video_pronto_bm.mp4": "6ce8c1b6e0cc64ee9b1e6b0f0fba9d1384de755d6a3c2930133bfcd0481288db",
+    "assets/producao.mp4": "44a572f05a76d665b74e0af6a7327f2248682af00716d2b1336d2005cbae9a92",
+    "assets/estoque.mp4": "f44e32ba7164f3e6b04eb15cf7a2f38be43c3e19690535de6169d64246767b66",
+    "assets/carregamento.mp4": "bbd7ef0768ca33931f5a620fc4c64f0e6ce934a885997b8d8cd205808ac035e4",
+    "assets/music.mp3": "09c6ca02126045963f5c0e577feea1d18c4b669cf64792b956f07765211eea86"
+  }
+}

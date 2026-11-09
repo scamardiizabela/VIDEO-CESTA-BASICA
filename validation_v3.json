@@ -1,0 +1,42 @@
+{
+  "version": "V3",
+  "duration_seconds": 47,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "size_bytes": 54032724,
+  "sha256": "8b00c42865747cd19cbbba26b596be39aa58b4bf8338f61e39586439d2aa3b36",
+  "full_decode": "passed",
+  "audio_peak_dbfs": -4.4,
+  "visual_review": "15 frames covering original proposal gallery, PAT, conversation, preparation, stock, loading and closing; margins and legibility checked",
+  "time_or_progress_markers": false,
+  "proposal_artwork_unchanged_sha256": {
+    "proposta_01.png": "32d0de26bb959dc0b07f87ad49033a10fa3a2a5d3a9fa6eea71fc13f367f2375",
+    "proposta_02.png": "10e3ab1a1921a26a478c4ebd17891e1a07a8ef6520212c5cb04cdc421fa8f27f",
+    "proposta_03.png": "d26cc4696bd09978e54563fd4cae055ff153f0a7c0ca053b2687c4c882efbde8",
+    "proposta_04.png": "cb1e341ad7a4b956fe1e921fdca66fbe4631303dce5c7469bdcd46ac78cfac0d",
+    "kit_limpeza.png": "7163d6cd3aa9e4e2d61be6c53ae59a75d59a20de99a9c0ac6617a55df0b7409b"
+  },
+  "services": [
+    "Variedade de propostas de cestas",
+    "Kit de limpeza",
+    "Fornecedor registrado no PAT FO002424",
+    "Atendimento humanizado e rápido",
+    "Qualidade nos materiais",
+    "Entrega rápida, condições combinadas no atendimento"
+  ],
+  "voice": {
+    "provider": "ElevenLabs",
+    "voice": "Bella",
+    "model": "eleven_multilingual_v2",
+    "language": "pt",
+    "alignment": "alignment_v3.json"
+  },
+  "source_resolution": "720x1280; proportional Lanczos upscale to 1080x1920; original products and operations preserved",
+  "reference": "https://boamesacestabasica.com.br/",
+  "drive_file_id": "18QwNgR2ej_bgo_xlJ_dfbfmgD5I9tv_x"
+}

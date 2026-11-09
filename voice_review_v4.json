@@ -1,0 +1,1290 @@
+{
+  "language_code": "por",
+  "language_probability": 1.0,
+  "text": "Sua compra merece mais. Mais qualidade, mais escolha, mais cuidado. Na Boa Mesa, tem cesta para sua casa e para quem faz a sua empresa acontecer. Escolha entre diferentes propostas. Complete com o kit de limpeza e para empresas, fornecedor registrado no PAT. No WhatsApp, você fala com gente de verdade, atendimento humanizado e rápido. Do pedido à montagem, qualidade nos materiais e cuidado em cada detalhe. Tudo organizado até o carregamento. Entrega rápida com as condições combinadas no atendimento. Boa Mesa Cesta Básica. Escolha sua proposta e peça sua cotação agora",
+  "words": [
+    {
+      "text": "Sua",
+      "start": 0.18,
+      "end": 0.36,
+      "type": "word",
+      "logprob": -1.5497178651457943e-06
+    },
+    {
+      "text": " ",
+      "start": 0.36,
+      "end": 0.48,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "compra",
+      "start": 0.48,
+      "end": 0.78,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": " ",
+      "start": 0.78,
+      "end": 0.88,
+      "type": "spacing",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": "merece",
+      "start": 0.88,
+      "end": 1.3,
+      "type": "word",
+      "logprob": -3.099436753473128e-06
+    },
+    {
+      "text": " ",
+      "start": 1.3,
+      "end": 1.34,
+      "type": "spacing",
+      "logprob": -6.48477507638745e-05
+    },
+    {
+      "text": "mais.",
+      "start": 1.34,
+      "end": 1.66,
+      "type": "word",
+      "logprob": -9.230990544892848e-05
+    },
+    {
+      "text": " ",
+      "start": 1.66,
+      "end": 2.18,
+      "type": "spacing",
+      "logprob": -0.00013493580627255142
+    },
+    {
+      "text": "Mais",
+      "start": 2.18,
+      "end": 2.4,
+      "type": "word",
+      "logprob": -0.00013493580627255142
+    },
+    {
+      "text": " ",
+      "start": 2.4,
+      "end": 2.44,
+      "type": "spacing",
+      "logprob": -6.079655122448457e-06
+    },
+    {
+      "text": "qualidade,",
+      "start": 2.44,
+      "end": 2.94,
+      "type": "word",
+      "logprob": -5.757791495852871e-06
+    },
+    {
+      "text": " ",
+      "start": 2.94,
+      "end": 3.38,
+      "type": "spacing",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": "mais",
+      "start": 3.38,
+      "end": 3.56,
+      "type": "word",
+      "logprob": -3.3378546504536644e-06
+    },
+    {
+      "text": " ",
+      "start": 3.56,
+      "end": 3.6,
+      "type": "spacing",
+      "logprob": -1.7165990357170813e-05
+    },
+    {
+      "text": "escolha,",
+      "start": 3.6,
+      "end": 4.04,
+      "type": "word",
+      "logprob": -1.5094747347177417e-05
+    },
+    {
+      "text": " ",
+      "start": 4.04,
+      "end": 4.48,
+      "type": "spacing",
+      "logprob": -3.2186455882765586e-06
+    },
+    {
+      "text": "mais",
+      "start": 4.48,
+      "end": 4.72,
+      "type": "word",
+      "logprob": -3.2186455882765586e-06
+    },
+    {
+      "text": " ",
+      "start": 4.72,
+      "end": 4.8,
+      "type": "spacing",
+      "logprob": -1.0728830375228426e-06
+    },
+    {
+      "text": "cuidado.",
+      "start": 4.8,
+      "end": 5.3,
+      "type": "word",
+      "logprob": -1.5050154758000645e-06
+    },
+    {
+      "text": " ",
+      "start": 5.3,
+      "end": 5.3,
+      "type": "spacing",
+      "logprob": -1.7762025890988298e-05
+    },
+    {
+      "text": "Na",
+      "start": 6.1,
+      "end": 6.18,
+      "type": "word",
+      "logprob": -1.7762025890988298e-05
+    },
+    {
+      "text": " ",
+      "start": 6.18,
+      "end": 6.3,
+      "type": "spacing",
+      "logprob": -0.010313430801033974
+    },
+    {
+      "text": "Boa",
+      "start": 6.3,
+      "end": 6.44,
+      "type": "word",
+      "logprob": -0.010313430801033974
+    },
+    {
+      "text": " ",
+      "start": 6.44,
+      "end": 6.54,
+      "type": "spacing",
+      "logprob": -9.762764238985255e-05
+    },
+    {
+      "text": "Mesa,",
+      "start": 6.54,
+      "end": 6.82,
+      "type": "word",
+      "logprob": -0.0007981635688338428
+    },
+    {
+      "text": " ",
+      "start": 6.82,
+      "end": 7.14,
+      "type": "spacing",
+      "logprob": -2.13382354559144e-05
+    },
+    {
+      "text": "tem",
+      "start": 7.14,
+      "end": 7.26,
+      "type": "word",
+      "logprob": -2.13382354559144e-05
+    },
+    {
+      "text": " ",
+      "start": 7.26,
+      "end": 7.4,
+      "type": "spacing",
+      "logprob": -0.0013243722496554255
+    },
+    {
+      "text": "cesta",
+      "start": 7.4,
+      "end": 7.74,
+      "type": "word",
+      "logprob": -0.0013243722496554255
+    },
+    {
+      "text": " ",
+      "start": 7.74,
+      "end": 7.76,
+      "type": "spacing",
+      "logprob": -3.182837463100441e-05
+    },
+    {
+      "text": "para",
+      "start": 7.76,
+      "end": 7.9,
+      "type": "word",
+      "logprob": -3.182837463100441e-05
+    },
+    {
+      "text": " ",
+      "start": 7.9,
+      "end": 8.02,
+      "type": "spacing",
+      "logprob": -0.00978246983140707
+    },
+    {
+      "text": "sua",
+      "start": 8.02,
+      "end": 8.26,
+      "type": "word",
+      "logprob": -0.00978246983140707
+    },
+    {
+      "text": " ",
+      "start": 8.26,
+      "end": 8.3,
+      "type": "spacing",
+      "logprob": -0.000331704446580261
+    },
+    {
+      "text": "casa",
+      "start": 8.3,
+      "end": 8.6,
+      "type": "word",
+      "logprob": -0.000331704446580261
+    },
+    {
+      "text": " ",
+      "start": 8.6,
+      "end": 8.84,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "e",
+      "start": 8.84,
+      "end": 8.94,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 8.94,
+      "end": 8.96,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "para",
+      "start": 8.96,
+      "end": 9.14,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 9.14,
+      "end": 9.16,
+      "type": "spacing",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": "quem",
+      "start": 9.16,
+      "end": 9.34,
+      "type": "word",
+      "logprob": -2.50339189733495e-06
+    },
+    {
+      "text": " ",
+      "start": 9.34,
+      "end": 9.42,
+      "type": "spacing",
+      "logprob": -1.3351351299206726e-05
+    },
+    {
+      "text": "faz",
+      "start": 9.42,
+      "end": 9.58,
+      "type": "word",
+      "logprob": -1.3351351299206726e-05
+    },
+    {
+      "text": " ",
+      "start": 9.58,
+      "end": 9.62,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "a",
+      "start": 9.62,
+      "end": 9.64,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 9.64,
+      "end": 9.72,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "sua",
+      "start": 9.72,
+      "end": 9.82,
+      "type": "word",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": " ",
+      "start": 9.82,
+      "end": 9.84,
+      "type": "spacing",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": "empresa",
+      "start": 9.84,
+      "end": 10.2,
+      "type": "word",
+      "logprob": -1.6689286894688848e-06
+    },
+    {
+      "text": " ",
+      "start": 10.2,
+      "end": 10.22,
+      "type": "spacing",
+      "logprob": -4.410734163684538e-06
+    },
+    {
+      "text": "acontecer.",
+      "start": 10.22,
+      "end": 10.8,
+      "type": "word",
+      "logprob": -3.969660747316084e-06
+    },
+    {
+      "text": " ",
+      "start": 10.8,
+      "end": 10.8,
+      "type": "spacing",
+      "logprob": -0.00015424491721205413
+    },
+    {
+      "text": "Escolha",
+      "start": 11.38,
+      "end": 11.84,
+      "type": "word",
+      "logprob": -0.00011017494086575295
+    },
+    {
+      "text": " ",
+      "start": 11.84,
+      "end": 11.86,
+      "type": "spacing",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": "entre",
+      "start": 11.86,
+      "end": 12.1,
+      "type": "word",
+      "logprob": -1.4305104514278355e-06
+    },
+    {
+      "text": " ",
+      "start": 12.1,
+      "end": 12.14,
+      "type": "spacing",
+      "logprob": -2.062299427052494e-05
+    },
+    {
+      "text": "diferentes",
+      "start": 12.14,
+      "end": 12.76,
+      "type": "word",
+      "logprob": -2.062299427052494e-05
+    },
+    {
+      "text": " ",
+      "start": 12.76,
+      "end": 12.78,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "propostas.",
+      "start": 12.78,
+      "end": 13.38,
+      "type": "word",
+      "logprob": -0.0014432497463076287
+    },
+    {
+      "text": " ",
+      "start": 13.38,
+      "end": 13.8,
+      "type": "spacing",
+      "logprob": -0.0023267597425729036
+    },
+    {
+      "text": "Complete",
+      "start": 13.8,
+      "end": 14.32,
+      "type": "word",
+      "logprob": -0.0023267597425729036
+    },
+    {
+      "text": " ",
+      "start": 14.32,
+      "end": 14.36,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "com",
+      "start": 14.36,
+      "end": 14.46,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 14.46,
+      "end": 14.5,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "o",
+      "start": 14.5,
+      "end": 14.6,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 14.6,
+      "end": 14.64,
+      "type": "spacing",
+      "logprob": -6.41325386823155e-05
+    },
+    {
+      "text": "kit",
+      "start": 14.64,
+      "end": 14.84,
+      "type": "word",
+      "logprob": -6.41325386823155e-05
+    },
+    {
+      "text": " ",
+      "start": 14.84,
+      "end": 14.86,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "de",
+      "start": 14.86,
+      "end": 14.94,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 14.94,
+      "end": 14.96,
+      "type": "spacing",
+      "logprob": -0.00020001317898277193
+    },
+    {
+      "text": "limpeza",
+      "start": 14.96,
+      "end": 15.46,
+      "type": "word",
+      "logprob": -0.00020001317898277193
+    },
+    {
+      "text": " ",
+      "start": 15.46,
+      "end": 15.94,
+      "type": "spacing",
+      "logprob": -0.08921273797750473
+    },
+    {
+      "text": "e",
+      "start": 15.94,
+      "end": 16.04,
+      "type": "word",
+      "logprob": -0.08921273797750473
+    },
+    {
+      "text": " ",
+      "start": 16.04,
+      "end": 16.059,
+      "type": "spacing",
+      "logprob": -0.00043156370520591736
+    },
+    {
+      "text": "para",
+      "start": 16.059,
+      "end": 16.2,
+      "type": "word",
+      "logprob": -0.00043156370520591736
+    },
+    {
+      "text": " ",
+      "start": 16.2,
+      "end": 16.239,
+      "type": "spacing",
+      "logprob": -2.6702524337451905e-05
+    },
+    {
+      "text": "empresas,",
+      "start": 16.239,
+      "end": 16.72,
+      "type": "word",
+      "logprob": -2.405346817290087e-05
+    },
+    {
+      "text": " ",
+      "start": 16.72,
+      "end": 17.12,
+      "type": "spacing",
+      "logprob": -0.00011157367407577112
+    },
+    {
+      "text": "fornecedor",
+      "start": 17.12,
+      "end": 17.8,
+      "type": "word",
+      "logprob": -0.00012838002658099867
+    },
+    {
+      "text": " ",
+      "start": 17.8,
+      "end": 17.84,
+      "type": "spacing",
+      "logprob": -0.0004374024283606559
+    },
+    {
+      "text": "registrado",
+      "start": 17.84,
+      "end": 18.42,
+      "type": "word",
+      "logprob": -0.0004374024283606559
+    },
+    {
+      "text": " ",
+      "start": 18.42,
+      "end": 18.44,
+      "type": "spacing",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": "no",
+      "start": 18.44,
+      "end": 18.56,
+      "type": "word",
+      "logprob": -4.768370445162873e-07
+    },
+    {
+      "text": " ",
+      "start": 18.56,
+      "end": 18.6,
+      "type": "spacing",
+      "logprob": -0.06343904882669449
+    },
+    {
+      "text": "PAT.",
+      "start": 18.6,
+      "end": 18.9,
+      "type": "word",
+      "logprob": -0.047579286620020866
+    },
+    {
+      "text": " ",
+      "start": 18.9,
+      "end": 18.9,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "No",
+      "start": 19.72,
+      "end": 19.78,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 19.78,
+      "end": 19.82,
+      "type": "spacing",
+      "logprob": -7.271740287251305e-06
+    },
+    {
+      "text": "WhatsApp,",
+      "start": 19.82,
+      "end": 20.32,
+      "type": "word",
+      "logprob": -8.569779917403745e-06
+    },
+    {
+      "text": " ",
+      "start": 20.32,
+      "end": 20.42,
+      "type": "spacing",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": "você",
+      "start": 20.42,
+      "end": 20.7,
+      "type": "word",
+      "logprob": -3.576278118089249e-07
+    },
+    {
+      "text": " ",
+      "start": 20.7,
+      "end": 20.74,
+      "type": "spacing",
+      "logprob": -4.291525328881107e-06
+    },
+    {
+      "text": "fala",
+      "start": 20.74,
+      "end": 20.94,
+      "type": "word",
+      "logprob": -4.291525328881107e-06
+    },
+    {
+      "text": " ",
+      "start": 20.94,
+      "end": 20.98,
+      "type": "spacing",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": "com",
+      "start": 20.98,
+      "end": 21.1,
+      "type": "word",
+      "logprob": -2.3841855067985307e-07
+    },
+    {
+      "text": " ",
+      "start": 21.1,
+      "end": 21.2,
+      "type": "spacing",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": "gente",
+      "start": 21.2,
+      "end": 21.46,
+      "type": "word",
+      "logprob": -2.0265558760002023e-06
+    },
+    {
+      "text": " ",
+      "start": 21.46,
+      "end": 21.48,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "de",
+      "start": 21.48,
+      "end": 21.58,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 21.58,
+      "end": 21.6,
+      "type": "spacing",
+      "logprob": -9.179073458653875e-06
+    },
+    {
+      "text": "verdade,",
+      "start": 21.6,
+      "end": 22.16,
+      "type": "word",
+      "logprob": -0.02003604356264077
+    },
+    {
+      "text": " ",
+      "start": 22.16,
+      "end": 22.16,
+      "type": "spacing",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": "atendimento",
+      "start": 22.64,
+      "end": 23.18,
+      "type": "word",
+      "logprob": -7.033323527139146e-06
+    },
+    {
+      "text": " ",
+      "start": 23.18,
+      "end": 23.18,
+      "type": "spacing",
+      "logprob": -9.536697689327411e-06
+    },
+    {
+      "text": "humanizado",
+      "start": 23.18,
+      "end": 23.8,
+      "type": "word",
+      "logprob": -6.198858272910002e-06
+    },
+    {
+      "text": " ",
+      "start": 23.8,
+      "end": 24.0,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "e",
+      "start": 24.0,
+      "end": 24.06,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 24.06,
+      "end": 24.14,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "rápido.",
+      "start": 24.14,
+      "end": 24.56,
+      "type": "word",
+      "logprob": -1.1580323148661722e-06
+    },
+    {
+      "text": " ",
+      "start": 24.56,
+      "end": 25.08,
+      "type": "spacing",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": "Do",
+      "start": 25.08,
+      "end": 25.14,
+      "type": "word",
+      "logprob": -9.536738616588991e-07
+    },
+    {
+      "text": " ",
+      "start": 25.14,
+      "end": 25.22,
+      "type": "spacing",
+      "logprob": -8.583032467868179e-06
+    },
+    {
+      "text": "pedido",
+      "start": 25.22,
+      "end": 25.66,
+      "type": "word",
+      "logprob": -8.583032467868179e-06
+    },
+    {
+      "text": " ",
+      "start": 25.66,
+      "end": 25.68,
+      "type": "spacing",
+      "logprob": -2.7418097943154862e-06
+    },
+    {
+      "text": "à",
+      "start": 25.68,
+      "end": 25.72,
+      "type": "word",
+      "logprob": -2.7418097943154862e-06
+    },
+    {
+      "text": " ",
+      "start": 25.72,
+      "end": 25.76,
+      "type": "spacing",
+      "logprob": -5.2569914259947836e-05
+    },
+    {
+      "text": "montagem,",
+      "start": 25.76,
+      "end": 26.34,
+      "type": "word",
+      "logprob": -2.441079800519219e-05
+    },
+    {
+      "text": " ",
+      "start": 26.34,
+      "end": 26.62,
+      "type": "spacing",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": "qualidade",
+      "start": 26.62,
+      "end": 27.22,
+      "type": "word",
+      "logprob": -4.768360213347478e-06
+    },
+    {
+      "text": " ",
+      "start": 27.22,
+      "end": 27.26,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "nos",
+      "start": 27.26,
+      "end": 27.4,
+      "type": "word",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": " ",
+      "start": 27.4,
+      "end": 27.44,
+      "type": "spacing",
+      "logprob": -1.5258672647178173e-05
+    },
+    {
+      "text": "materiais",
+      "start": 27.44,
+      "end": 28.02,
+      "type": "word",
+      "logprob": -1.5258672647178173e-05
+    },
+    {
+      "text": " ",
+      "start": 28.02,
+      "end": 28.22,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "e",
+      "start": 28.22,
+      "end": 28.24,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 28.24,
+      "end": 28.32,
+      "type": "spacing",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": "cuidado",
+      "start": 28.32,
+      "end": 28.74,
+      "type": "word",
+      "logprob": -2.3841830625315197e-06
+    },
+    {
+      "text": " ",
+      "start": 28.74,
+      "end": 28.76,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "em",
+      "start": 28.76,
+      "end": 28.9,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 28.9,
+      "end": 28.96,
+      "type": "spacing",
+      "logprob": -2.5629668016335927e-05
+    },
+    {
+      "text": "cada",
+      "start": 28.96,
+      "end": 29.18,
+      "type": "word",
+      "logprob": -2.5629668016335927e-05
+    },
+    {
+      "text": " ",
+      "start": 29.18,
+      "end": 29.24,
+      "type": "spacing",
+      "logprob": -1.7762025890988298e-05
+    },
+    {
+      "text": "detalhe.",
+      "start": 29.24,
+      "end": 29.72,
+      "type": "word",
+      "logprob": -1.1116167342173355e-05
+    },
+    {
+      "text": " ",
+      "start": 29.72,
+      "end": 30.28,
+      "type": "spacing",
+      "logprob": -5.245195097813848e-06
+    },
+    {
+      "text": "Tudo",
+      "start": 30.28,
+      "end": 30.54,
+      "type": "word",
+      "logprob": -5.245195097813848e-06
+    },
+    {
+      "text": " ",
+      "start": 30.54,
+      "end": 30.58,
+      "type": "spacing",
+      "logprob": -0.00019107422849629074
+    },
+    {
+      "text": "organizado",
+      "start": 30.58,
+      "end": 31.26,
+      "type": "word",
+      "logprob": -0.00019107422849629074
+    },
+    {
+      "text": " ",
+      "start": 31.26,
+      "end": 31.32,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "até",
+      "start": 31.32,
+      "end": 31.54,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 31.54,
+      "end": 31.56,
+      "type": "spacing",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": "o",
+      "start": 31.56,
+      "end": 31.62,
+      "type": "word",
+      "logprob": -1.1920928244535389e-07
+    },
+    {
+      "text": " ",
+      "start": 31.62,
+      "end": 31.64,
+      "type": "spacing",
+      "logprob": -3.135155202471651e-05
+    },
+    {
+      "text": "carregamento.",
+      "start": 31.64,
+      "end": 32.259,
+      "type": "word",
+      "logprob": -1.4690025724261292e-05
+    },
+    {
+      "text": " ",
+      "start": 32.259,
+      "end": 33.0,
+      "type": "spacing",
+      "logprob": -6.770858453819528e-05
+    },
+    {
+      "text": "Entrega",
+      "start": 33.0,
+      "end": 33.4,
+      "type": "word",
+      "logprob": -4.8737932177443455e-05
+    },
+    {
+      "text": " ",
+      "start": 33.4,
+      "end": 33.52,
+      "type": "spacing",
+      "logprob": -2.682172998902388e-05
+    },
+    {
+      "text": "rápida",
+      "start": 33.52,
+      "end": 34.04,
+      "type": "word",
+      "logprob": -2.682172998902388e-05
+    },
+    {
+      "text": " ",
+      "start": 34.04,
+      "end": 34.08,
+      "type": "spacing",
+      "logprob": -0.00861463975161314
+    },
+    {
+      "text": "com",
+      "start": 34.08,
+      "end": 34.18,
+      "type": "word",
+      "logprob": -0.00861463975161314
+    },
+    {
+      "text": " ",
+      "start": 34.18,
+      "end": 34.22,
+      "type": "spacing",
+      "logprob": -3.576272320060525e-06
+    },
+    {
+      "text": "as",
+      "start": 34.22,
+      "end": 34.34,
+      "type": "word",
+      "logprob": -3.576272320060525e-06
+    },
+    {
+      "text": " ",
+      "start": 34.34,
+      "end": 34.36,
+      "type": "spacing",
+      "logprob": -1.0013530300057027e-05
+    },
+    {
+      "text": "condições",
+      "start": 34.36,
+      "end": 34.84,
+      "type": "word",
+      "logprob": -1.0013530300057027e-05
+    },
+    {
+      "text": " ",
+      "start": 34.84,
+      "end": 34.88,
+      "type": "spacing",
+      "logprob": -0.00014602071314584464
+    },
+    {
+      "text": "combinadas",
+      "start": 34.88,
+      "end": 35.48,
+      "type": "word",
+      "logprob": -8.775547901223036e-05
+    },
+    {
+      "text": " ",
+      "start": 35.48,
+      "end": 35.5,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "no",
+      "start": 35.5,
+      "end": 35.54,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 35.54,
+      "end": 35.56,
+      "type": "spacing",
+      "logprob": -6.6756979322235566e-06
+    },
+    {
+      "text": "atendimento.",
+      "start": 35.56,
+      "end": 36.14,
+      "type": "word",
+      "logprob": -6.1193897712049266e-06
+    },
+    {
+      "text": " ",
+      "start": 36.14,
+      "end": 36.14,
+      "type": "spacing",
+      "logprob": -0.00020990552729927003
+    },
+    {
+      "text": "Boa",
+      "start": 36.98,
+      "end": 37.2,
+      "type": "word",
+      "logprob": -0.00020990552729927003
+    },
+    {
+      "text": " ",
+      "start": 37.2,
+      "end": 37.32,
+      "type": "spacing",
+      "logprob": -0.001178642618469894
+    },
+    {
+      "text": "Mesa",
+      "start": 37.32,
+      "end": 37.6,
+      "type": "word",
+      "logprob": -0.001178642618469894
+    },
+    {
+      "text": " ",
+      "start": 37.6,
+      "end": 37.72,
+      "type": "spacing",
+      "logprob": -7.283422019099817e-05
+    },
+    {
+      "text": "Cesta",
+      "start": 37.72,
+      "end": 37.98,
+      "type": "word",
+      "logprob": -4.832620179513469e-05
+    },
+    {
+      "text": " ",
+      "start": 37.98,
+      "end": 38.08,
+      "type": "spacing",
+      "logprob": -0.010018893517553806
+    },
+    {
+      "text": "Básica.",
+      "start": 38.08,
+      "end": 38.52,
+      "type": "word",
+      "logprob": -0.004294628941871841
+    },
+    {
+      "text": " ",
+      "start": 38.52,
+      "end": 38.52,
+      "type": "spacing",
+      "logprob": -8.284702198579907e-05
+    },
+    {
+      "text": "Escolha",
+      "start": 38.96,
+      "end": 39.36,
+      "type": "word",
+      "logprob": -5.917644427557077e-05
+    },
+    {
+      "text": " ",
+      "start": 39.36,
+      "end": 39.38,
+      "type": "spacing",
+      "logprob": -1.07287787614041e-05
+    },
+    {
+      "text": "sua",
+      "start": 39.4,
+      "end": 39.56,
+      "type": "word",
+      "logprob": -1.07287787614041e-05
+    },
+    {
+      "text": " ",
+      "start": 39.56,
+      "end": 39.58,
+      "type": "spacing",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": "proposta",
+      "start": 39.58,
+      "end": 40.06,
+      "type": "word",
+      "logprob": -2.264974000354414e-06
+    },
+    {
+      "text": " ",
+      "start": 40.06,
+      "end": 40.36,
+      "type": "spacing",
+      "logprob": 0.0
+    },
+    {
+      "text": "e",
+      "start": 40.38,
+      "end": 40.4,
+      "type": "word",
+      "logprob": 0.0
+    },
+    {
+      "text": " ",
+      "start": 40.4,
+      "end": 40.52,
+      "type": "spacing",
+      "logprob": -6.949660019017756e-05
+    },
+    {
+      "text": "peça",
+      "start": 40.54,
+      "end": 40.82,
+      "type": "word",
+      "logprob": -6.949660019017756e-05
+    },
+    {
+      "text": " ",
+      "start": 40.82,
+      "end": 40.86,
+      "type": "spacing",
+      "logprob": -0.0004418112221173942
+    },
+    {
+      "text": "sua",
+      "start": 40.86,
+      "end": 41.06,
+      "type": "word",
+      "logprob": -0.0004418112221173942
+    },
+    {
+      "text": " ",
+      "start": 41.06,
+      "end": 41.1,
+      "type": "spacing",
+      "logprob": -1.1920922133867862e-06
+    },
+    {
+      "text": "cotação",
+      "start": 41.1,
+      "end": 41.6,
+      "type": "word",
+      "logprob": -0.00011914185959735082
+    },
+    {
+      "text": " ",
+      "start": 41.6,
+      "end": 41.68,
+      "type": "spacing",
+      "logprob": -1.311301275563892e-06
+    },
+    {
+      "text": "agora",
+      "start": 41.68,
+      "end": 42.04,
+      "type": "word",
+      "logprob": -1.311301275563892e-06
+    }
+  ],
+  "transcription_id": "0jgj35vSKqzs94KSQgzG",
+  "audio_duration_secs": 42.32
+}

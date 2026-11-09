@@ -1,0 +1,41 @@
+{
+  "version": "V4",
+  "duration_seconds": 44,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "video_codec": "h264",
+  "video_crf": 15,
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "audio_peak_dbfs": -3.5,
+  "size_bytes": 45791640,
+  "sha256": "798f44e33d233efd5419038bdbc18b9c9cc10913e9ddf6e0a76be182f90b923a",
+  "full_decode": "passed",
+  "voice_verified_by_transcription": true,
+  "voice_language_probability": 1.0,
+  "voice_model": "eleven_v3",
+  "voice": "Charlie - Deep, Confident, Energetic",
+  "time_or_progress_markers": false,
+  "proposal_carousel_seconds": 2.338,
+  "cleaning_kit_scene_seconds": 2.009,
+  "proposal_artwork_source_sha256": {
+    "proposta_01.png": "32d0de26bb959dc0b07f87ad49033a10fa3a2a5d3a9fa6eea71fc13f367f2375",
+    "proposta_02.png": "10e3ab1a1921a26a478c4ebd17891e1a07a8ef6520212c5cb04cdc421fa8f27f",
+    "proposta_03.png": "d26cc4696bd09978e54563fd4cae055ff153f0a7c0ca053b2687c4c882efbde8",
+    "proposta_04.png": "cb1e341ad7a4b956fe1e921fdca66fbe4631303dce5c7469bdcd46ac78cfac0d",
+    "kit_limpeza.png": "7163d6cd3aa9e4e2d61be6c53ae59a75d59a20de99a9c0ac6617a55df0b7409b"
+  },
+  "visual_review": "Hero frames plus 12 transition positions; logo clipping and basket edge placement corrected before full render. Perspective card pass and three transition families reviewed.",
+  "source_quality": "Original 720x1280 operations upscaled proportionally with Lanczos, no artificial operational scenes",
+  "changes": [
+    "New commercial copy and expressive male voice",
+    "Quick original-art carousel as supporting variety, following latest user direction",
+    "Product photo planes with perspective, depth entrances and kinetic display typography",
+    "Camera whips with shutter blur, brand-angle wipes and expanding apertures",
+    "Custom low impacts, stereo sweeps, tactile pass-bys and final harmonic signature",
+    "Original production, stock and loading footage retained"
+  ],
+  "drive_file_id": "18QwNgR2ej_bgo_xlJ_dfbfmgD5I9tv_x"
+}

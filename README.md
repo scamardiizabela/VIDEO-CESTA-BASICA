@@ -1,37 +1,42 @@
-# Boa Mesa Cesta Básica — filme institucional V3
+# Boa Mesa Cesta Básica — anúncio V4
 
-[Assistir ao vídeo pronto no Google Drive](https://drive.google.com/file/d/18QwNgR2ej_bgo_xlJ_dfbfmgD5I9tv_x/view)
+[Assistir à versão atual no Google Drive](https://drive.google.com/file/d/18QwNgR2ej_bgo_xlJ_dfbfmgD5I9tv_x/view)
 
-47 segundos, vertical 1080 × 1920, 30 fps, H.264 CRF 15, AAC estéreo 320 kb/s e 48 kHz.
+44 segundos • 1080×1920 • 30 fps • H.264 CRF 15 • AAC estéreo 320 kb/s, 48 kHz.
 
-## Conteúdo e direção
-As cinco artes originais apresentam Propostas 01, 02, 03 e 04 e Kit Limpeza com seus valores, pesos e quantidades. A galeria usa movimentos contínuos e preserva integralmente as artes. Na sequência, imagens reais da operação apresentam soluções para empresas, registro PAT FO002424, atendimento humanizado e rápido, preparação com cuidado e entrega rápida com condições combinadas no atendimento.
+## Direção
+Conceito: **Sua compra merece mais. Mais qualidade. Mais escolha. Mais cuidado.** Nova copy comercial, voz masculina expressiva ElevenLabs v3, tipografia condensada, fotografias originais em perspectiva e transições com aceleração e movimentos diferentes. Os materiais de proposta apoiam a variedade: quatro artes passam em 2,338 segundos; o kit de limpeza entra na sequência por 2,009 segundos. Não há relógios, barras ou etapas numeradas.
 
-Direção editorial com marfim, vinho e dourado; tipografia EB Garamond e Inter; revelações por palavra alinhadas à narração e transições de planos adjacentes. Sem relógios, numeração de etapas ou barras de progresso. Os números próprios das propostas e do registro PAT permanecem.
-
-Narração ElevenLabs Multilingual v2 em português, voz Bella. Alinhamento real por palavra em `alignment_v3.json` e `timing_v3.json`. Trilha com extensão musical por crossfades e redução durante a fala; passagens, cliques suaves, notificação e ambiência dos originais em níveis discretos.
+A narrativa apresenta casa e empresa, variedade, kit limpeza, fornecedor registrado no PAT FO002424, atendimento humanizado no WhatsApp e operação real: preparação, estoque e carregamento. O encerramento traz cotação e chamada para WhatsApp. Condições de entrega são combinadas no atendimento, sem promessas automáticas de benefícios fiscais.
 
 ## Reproduzir
 Requer Python 3.10+, Pillow, NumPy e FFmpeg no PATH.
 
 ```sh
 python -m pip install -r requirements.txt
-python render_v3.py
+python render_v4.py
+python mix_v4.py
 ```
 
-O código extrai automaticamente `assets_v3.zip` para `assets/` e gera a extensão da música quando necessário. O arquivo contém as cinco artes, a logo oficial do site, narração, fontes e efeitos usados na V3. A trilha `assets/music.mp3` está versionada desde a primeira edição.
+`assets_v4.zip` é extraído automaticamente. Contém imagens originais, logo, voz, fontes e efeitos usados na V4. `mix_v4.py` gera a montagem da trilha e o design sonoro de forma determinística. A música original `assets/music.mp3` está versionada desde a primeira edição.
 
-Baixe os três vídeos originais da [pasta Vídeo Boa Mesa](https://drive.google.com/drive/folders/1SFCXwYSUXl2inb1hvk1Rmu3VEO4aEeo2) para `assets/`:
+Baixe os vídeos originais da [pasta Vídeo Boa Mesa](https://drive.google.com/drive/folders/1SFCXwYSUXl2inb1hvk1Rmu3VEO4aEeo2) para `assets/`:
 
-| Original | Nome local | SHA-256 |
-| --- | --- | --- |
-| PRODUÇÃO.mp4 | producao.mp4 | 44a572f05a76d665b74e0af6a7327f2248682af00716d2b1336d2005cbae9a92 |
-| estoque.mp4 | estoque.mp4 | f44e32ba7164f3e6b04eb15cf7a2f38be43c3e19690535de6169d64246767b66 |
-| Carregamento.mp4 | carregamento.mp4 | bbd7ef0768ca33931f5a620fc4c64f0e6ce934a885997b8d8cd205808ac035e4 |
+| Original | Nome local |
+| --- | --- |
+| PRODUÇÃO.mp4 | producao.mp4 |
+| estoque.mp4 | estoque.mp4 |
+| Carregamento.mp4 | carregamento.mp4 |
 
-Os originais são 720 × 1280; a exportação Full HD usa ampliação proporcional Lanczos. Nenhuma cena operacional foi gerada e nenhum produto, embalagem ou procedimento foi modificado. O projeto e os materiais de edição estão neste repositório; o MP4 final está no Drive como **vídeo pronto bm.mp4**.
+Os originais 720×1280 recebem ampliação proporcional Lanczos para Full HD. Nenhuma cena operacional é gerada. Produtos e embalagens permanecem originais. Fotos dos kits são enquadradas por máscaras e apresentadas como planos em perspectiva; as artes completas também passam na galeria.
 
-## Validação
-Decodificação completa sem erros, duração e formato conferidos, áudio sem saturação e revisão visual dos enquadramentos, textos e artes. Metadados e hashes em `validation_v3.json`. `NARRACAO_V3.txt` guarda a copy final. V1 e V2 permanecem no histórico e nos arquivos anteriores.
+## Arquivos de revisão
+- `DESIGN_V4.md` e `PLAN_V4.md`: direção e execução, incluindo a instrução de não destacar propostas.
+- `NARRACAO_V4.txt`: texto final.
+- `alignment_v4.json` e `timing_v4.json`: alinhamento e cenas.
+- `voice_review_v4.json`: transcrição de conferência da voz.
+- `REVISAO_V4.md`: crítica, correções e limites observados.
+- `validation_v4.json`: especificações, hashes e verificações da entrega.
+- `ASSET_CREDITS_V4.md`: créditos e fontes dos materiais.
 
-Referência de serviços e registro: https://boamesacestabasica.com.br/ . O registro PAT é apresentado como condição de fornecedor, sem promessas automáticas de benefícios fiscais. Prazos de entrega dependem das condições combinadas no atendimento.
+O MP4 final está na mesma pasta do Drive como **vídeo pronto bm.mp4**. O repositório contém o projeto e os materiais reproduzíveis. Edições anteriores permanecem preservadas.

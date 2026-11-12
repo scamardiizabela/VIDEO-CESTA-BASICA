@@ -94,6 +94,7 @@ def closing(t):
         v.text(box,'CHAME NO WHATSAPP',54,43,67,'#ffffff',True,maxw=820)
         v.paste(im,box,80,1340+45*(1-pp),pp)
     v.text(im,'(17) 98159-2950',80,1564,51,C['wine'],False,maxw=920,alpha=entrance)
+    v.text(im,'(17) 99622-0624',80,1621,51,C['wine'],False,maxw=920,alpha=entrance)
     v.text(im,'boamesacestabasica.com.br',80,1670,36,C['wine'],False,maxw=920,alpha=entrance)
     return im
 

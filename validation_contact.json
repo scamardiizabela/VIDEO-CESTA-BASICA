@@ -1,0 +1,24 @@
+{
+  "change": "Only add (17) 99622-0624 below existing contact in closing",
+  "source_version": "V5",
+  "source_commit": "32459c16d531b1ac1002b0940e608d5ae13f7c0a",
+  "source_sha256": "070b7937039304afda230ee7017543e1ab8ccb6ea8c9e6c13a271cf4c48610a7",
+  "sha256": "47cf6c43a546e5dcfaea6d1698a896317db795e5afa6528e956b940702714997",
+  "size_bytes": 46657279,
+  "duration_seconds": 44,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frame_count": 1320,
+  "original_audio_packets_identical": true,
+  "audio_packet_sha256": "SHA256=efeb80dbed54894428a84d98b2ff38bc312dd44e0d5317f9f4ddbba8743e1ab2",
+  "first_980_frames_pixel_identical": true,
+  "first_980_frames_stream_copied": true,
+  "additional_phone": "(17) 99622-0624",
+  "existing_phone_retained": "(17) 98159-2950",
+  "visual_review": "Closing contact row reviewed at 41 seconds; same font, colour and entrance opacity. Website, logo and existing phone retain their placement.",
+  "export_note": "Tail after the preceding keyframe re-encoded with original CRF15 settings; no creative changes outside the additional phone.",
+  "full_decode": "passed"
+}

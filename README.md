@@ -4,6 +4,9 @@
 
 44 segundos • 1080×1920 • 30 fps • H.264 CRF 15 • AAC estéreo 320 kb/s, 48 kHz.
 
+## Contato adicional — 12/11/2026
+Incluído somente **(17) 99622-0624** abaixo do contato existente **(17) 98159-2950**, no encerramento. Edição, roteiro, narração, música e duração preservados. `add_phone.py` aplica a inclusão diretamente ao master V5 aprovado, preserva os primeiros 980 quadros por cópia de stream e copia os pacotes de áudio originais. A reprodução integral pelo renderer também inclui o novo número. Ver `validation_contact.json`.
+
 ## Refinamento V5
 Abertura tipográfica, sem fotografias recortadas de cestas. A cena para casa e empresa usa a filmagem real da preparação. As cinco artes aparecem apenas na passagem de propostas e kit, entre 11,583 e 15,930 segundos. A galeria rápida de quatro propostas mantém o movimento aprovado pela cliente. O kit usa a mesma linguagem de cartão original em perspectiva. Cena PAT sem fotografia de produto.
 
